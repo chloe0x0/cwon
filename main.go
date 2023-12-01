@@ -37,11 +37,13 @@ func main() {
 	}
 	defer resp.Body.Close()
 
+	// Read the response body into a byte array so we can unmarshal it later
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		panic(err)
 	}
 
+	// Parse the JSON response into a response struct
 	data := response{}
 	if err := json.Unmarshal(body, &data); err != nil {
 		panic(err)
