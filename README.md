@@ -3,7 +3,7 @@
 cwon
 </h1>
 
-A CLI for generating CRON expressions from natrual english phrases in Go. 
+A CLI for generating CRON expressions from natural english phrases in Go. 
 
 It works by making a GET request to [cron prompt](https://cronprompt.com/).
 
