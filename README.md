@@ -22,8 +22,8 @@ go build
 
 ## Usage
 ```
-cwon At midnight on christmas
-0 0 0 25 12 *
+cwon New years eve
+0 0 31 12 *
 cwon Every minute during Halloween
 0 31 10 * *
 ```
