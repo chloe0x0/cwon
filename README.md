@@ -24,4 +24,6 @@ go build
 ```
 cwon At midnight on christmas
 0 0 0 25 12 *
+cwon Every minute during Halloween
+0 31 10 * *
 ```
