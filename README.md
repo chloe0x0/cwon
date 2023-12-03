@@ -1,9 +1,12 @@
 
 <h1 align="center">
-cwon
+<img src='./assets/cwon.png'>
 </h1>
 
+<p align="center">
 A CLI for generating CRON expressions from natural english phrases in Go. 
+</p>
+
 
 It works by making a GET request to [cron prompt](https://cronprompt.com/).
 
