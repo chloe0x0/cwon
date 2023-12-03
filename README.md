@@ -14,7 +14,7 @@ It works by making a GET request to [cron prompt](https://cronprompt.com/).
 Cron Prompt uses a Large Language Model to generate its Cron expressions. The resulting cron expressions may be innacurate or incomplete as a result. 
 It may, however, be capable of handling more complex expressions than more deterministic libraries which use Pushdown automata. If a result seems slightly off, try to prompt the model with different wording.
 
-Validate before with a tool like [Crontab](https://crontab.guru/) before use in any application.
+Validate expressions with a tool like [Crontab](https://crontab.guru/) before use in any application.
 
 ## Building 
 
