@@ -25,7 +25,7 @@ go build
 cwon New years eve
 0 0 31 12 *
 cwon Every minute during Halloween
-0 31 10 * *
+0 0 31 10 *
 ```
 
 ### Cron format
