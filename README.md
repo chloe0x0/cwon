@@ -29,6 +29,8 @@ go build
 ```
 cwon at 8pm on Christmas
 0 20 25 12 *
+cwon at 8pm on christmas eve
+0 20 24 12 *
 cwon During work hours
 0 9-17 * * *
 cwon At every minute divisible by 5 at work hours
