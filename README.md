@@ -42,6 +42,8 @@ cwon At 8pm during October 31st
 0 20 31 10 *
 cwon When McDonalds opens every day
 0 6 * * *
+cwon 30 minutes before 5am
+30 4 * * *
 ```
 
 ### Example of a malformed result
