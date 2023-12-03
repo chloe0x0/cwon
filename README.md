@@ -30,8 +30,6 @@ cwon New years eve
 0 0 31 12 *
 cwon Every year
 0 0 1 1 *
-cwon Every minute during Halloween
-0 0 31 10 *
 cwon At every minute divisible by 5
 */5 * * * *
 cwon At 4:45 Saturday and Sunday
@@ -42,6 +40,32 @@ cwon At 8pm during Halloween
 0 20 31 10 *
 cwon At 8pm during October 31st
 0 20 31 10 *
+```
+
+### Example of a malformed result
+
+```
+cwon At every minute on October 31st
+* 31 10 * *
+```
+
+this is incorrect, as the hours field is 31, an invalid hour. The correct result should be * * 31 10 *.
+
+to remedy this, I used the following prompt structure (because this is how most 'cron translators' would read out * * 31 10 *)
+```
+cwon At every minute at day-of-month 31 in October
+* * 31 10 *
+```
+
+Sometimes, the model will generate incorrect responses but will return correct responses when re-prompted with the same prompt.
+
+(a consequence of the probabalistic nature of LLMs)
+
+```
+cwon At every minute at day-of-month 31 in October
+* 31 10 * *
+cwon At every minute at day-of-month 31 in October
+* * 31 10 *
 ```
 
 ### Cron format
