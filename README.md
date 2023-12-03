@@ -53,7 +53,7 @@ cwon At every minute on October 31st
 * 31 10 * *
 ```
 
-this is incorrect, as the hours field is 31, an invalid hour. The correct result should be * * 31 10 *.
+this is incorrect, as the hours field is 31. The correct result should be * * 31 10 *.
 
 to remedy this, I used the following prompt structure (because this is how most 'cron translators' would read out * * 31 10 *)
 ```
