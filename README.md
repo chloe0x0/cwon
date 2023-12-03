@@ -24,6 +24,8 @@ go build
 
 ## Usage
 ```
+cwon at 8pm on Christmas
+0 20 25 12 *
 cwon During work hours
 0 9-17 * * *
 cwon At every minute divisible by 5 at work hours
@@ -45,6 +47,8 @@ cwon At 8pm during October 31st
 cwon When McDonalds opens every day
 0 6 * * *
 cwon 30 minutes before 5am
+30 4 * * *
+cwon 30 minutes before 5th Fibbonaci Number am
 30 4 * * *
 ```
 
