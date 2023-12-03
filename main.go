@@ -23,6 +23,7 @@ type response struct {
 func main() {
 	// shift the args to remove the program
 	prompt := strings.Join(os.Args[1:], "%20")
+
 	if len(prompt) == 0 {
 		fmt.Println("No expression provided.")
 		fmt.Println(usage)

@@ -40,6 +40,8 @@ cwon At 8pm during Halloween
 0 20 31 10 *
 cwon At 8pm during October 31st
 0 20 31 10 *
+cwon When McDonalds opens every day
+0 6 * * *
 ```
 
 ### Example of a malformed result
