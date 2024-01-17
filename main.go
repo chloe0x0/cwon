@@ -38,7 +38,7 @@ func main() {
 
 	defer resp.Body.Close()
 
-	// Read the response body into a byte array so we can unmarshal i later
+	// Read the response body into a byte array so we can unmarshal it later
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		panic(err)
